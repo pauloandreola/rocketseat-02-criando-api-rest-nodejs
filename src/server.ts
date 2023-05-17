@@ -1,4 +1,3 @@
-
 interface IUser {
   birthYear: number
 }
