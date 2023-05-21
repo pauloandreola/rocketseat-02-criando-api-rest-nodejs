@@ -2,7 +2,7 @@
 
 ## Capítulo 01 aula 01 - Introdução
 
-## Capítulo 01 aula 02 - Conhecendo o Fastfy
+## Capítulo 01 aula 02 - Conhecendo o Fastify
 
 - https://www.fastify.io/
 - npm install fastify
@@ -61,11 +61,16 @@ Criando um hello world
 - Criar um arquivo eslintrc.json na raiz do projeto
 
 ## Capítulo 02 aula 01 - Estratégias de acesso ao banco de dados
+
 - Trabalhar com:
 - SQLite3 como banco de dados relacional - https://sqlite.org/index.html
-- npm 
 - Knex como SQL query builder - https://knexjs.org/
+
 ## Capítulo 02 aula 02 - Configurando o Knex
+
+- npm i knex
+- npm i sqlite3
+
 
 ## Capítulo 02 aula 03 - Criando primeira migration
 
