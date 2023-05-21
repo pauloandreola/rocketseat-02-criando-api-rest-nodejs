@@ -47,13 +47,32 @@ Criando um hello world
 - time node src/server.js = real
 - time tsx src/server.ts = real 
 
-Utilizar tsx somente no ambiente de desenvolvimento.
+- Utilizar tsx somente no ambiente de desenvolvimento.
 
-Criar um script de teste de desenvolvimento
-
-
+- Criar um script de teste de desenvolvimento com tsx e utilizando o comando watch para atualizar a escuta do terminal após cada alteração no código.
 
 ## Capítulo 01 aula 04 - Configurando o ESLint
 
+- https://eslint.org/
+- npm i eslint -D
+- npm init @eslint/config
+- npm i @rocketseat/eslint-config -D
 
+- Criar um arquivo eslintrc.json na raiz do projeto
+
+## Capítulo 02 aula 01 - Estratégias de acesso ao banco de dados
+- Trabalhar com:
+- SQLite3 como banco de dados relacional - https://sqlite.org/index.html
+- npm 
+- Knex como SQL query builder - https://knexjs.org/
+## Capítulo 02 aula 02 - Configurando o Knex
+
+## Capítulo 02 aula 03 - Criando primeira migration
+
+## Capítulo 02 aula 04 - Criando tabela de transações
+
+## Capítulo 02 aula 05 - Realizando queries com Knex
+
+## Capítulo 02 aula 06 - Variáveis de ambiente
+## Capítulo 02 aula 07 - Tratando env com Zod
 
