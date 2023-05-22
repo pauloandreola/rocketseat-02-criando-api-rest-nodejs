@@ -122,7 +122,13 @@ Criando um hello world
 ## Capítulo 03 aula 01 - Requisitos da aplicação
 
 - Definindo as regras funcionais e as regras de negócio
+
 ## Capítulo 03 aula 02 - Plugins do Fastify
+
+- Plugins é a forma de separar o pedaços da aplicação, exemplo separar as rotas em pasta e arquivos diferentes
+- exportar funções e receber por parâmetros, por exemplo a função receber o "app"
+- Todo o plugin no Fastify deve ser assíncrono
+- No parâmetro app deve ser instânciado pelo fastify usando o comando FastiifyInstance
 
 ## Capítulo 03 aula 03 - Criação de transações
 
