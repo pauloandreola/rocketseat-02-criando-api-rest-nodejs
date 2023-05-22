@@ -118,3 +118,26 @@ Criando um hello world
 - https://zod.dev/
 - Instalar o zod npm i zod
 - Configurando todas as variáveis de ambiente pelo index.ts da pasta env dentro do src as variáveis se tornam todas tipadas
+
+## Capítulo 03 aula 01 - Requisitos da aplicação
+
+- Definindo as regras funcionais e as regras de negócio
+## Capítulo 03 aula 02 - Plugins do Fastify
+
+## Capítulo 03 aula 03 - Criação de transações
+
+## Capítulo 03 aula 04 - Tipagem do Knex
+
+## Capítulo 03 aula 05 - Listagem das transações
+
+## Capítulo 03 aula 06 - Resumo das transações
+
+
+## Capítulo 03 aula 07 - Utilizando cookies no Fastify
+
+
+## Capítulo 03 aula 08 - Validando existência do cookie
+
+
+## Capítulo 03 aula 09 - Configurando um hook global
+
