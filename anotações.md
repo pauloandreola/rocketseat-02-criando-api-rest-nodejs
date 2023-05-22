@@ -79,11 +79,25 @@ Criando um hello world
 - Para ajustar o erro no terminal, inserir no  arquivo database, após o método de configuração "useNullAsDefault: true,"
 - Criar um arquivo knexfile.ts e dentro do arquivo é importar as configurações do banco
 - Passar as configurações do arquivo database por parâmetro utilizando o config
-- npm run knex -- migrate:make create-documents
+- npm run knex -- migrate:make create-transactions
 - no script "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js" incluir o comando no warning para não aparecer erro 
 
-
 ## Capítulo 02 aula 04 - Criando tabela de transações
+
+- Up criar uma tabela, dow remove uma tabela
+- Alterado o nome da migration para create-transactions
+- Criar a tabela no up e excluir/drop no down
+- rodar comando  "npm run knex -- migrate:latest" para gerar tabela
+- MIGRATION NÃO PODE SER EDITADA. APÓS CRIADA NUNCA MAIS ELA SERÁ EDITADA
+- Pode desfazer a migration. Cuidar para migration sendo criada em times de desenvolvimento
+- Para desfazer uma migration que ainda não foi enviada utilizar o comando "npm run knex -- migrate:rollback"
+- Altera/ajusta a criação do campo, ou tabela, etc.
+- Roda novamente "npm run knex -- migrate:latest" para gerar nova tabela
+- Para adicionar alguma coluna utilizar o comando "add", exemplo: "npm run knex -- migrate:make add-session-id-to-transactions"
+- Com o comando "after" é possível definir após qual coluna posso incluir a nova coluna, *alguns bancos não aceitam esse comando.
+- Para deletar a coluna utilizar o drop column do alter table
+- Após codificar os dados da nova coluna utilizar novamente o comando "npm run knex -- migrate:latest"
+
 
 ## Capítulo 02 aula 05 - Realizando queries com Knex
 
