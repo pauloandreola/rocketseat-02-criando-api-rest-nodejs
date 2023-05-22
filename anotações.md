@@ -103,8 +103,14 @@ Criando um hello world
 
 - Populando um teste na rota para teste 
 - Fazer uma busca na rota para teste
-
+- Configurar as variáveis de ambiente dentro do .env
+- Criar um arquivo.env.example e colocar quais são as variáveis que serão utilziadas, somente a chave e não o valor.
 
 ## Capítulo 02 aula 06 - Variáveis de ambiente
+
+- Instalar a extensão .env/DotENV no VSCode
+- Instalar npm i dotenv
+
+
 ## Capítulo 02 aula 07 - Tratando env com Zod
 
