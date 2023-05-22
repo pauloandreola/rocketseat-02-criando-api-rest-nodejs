@@ -4,7 +4,7 @@ import { knex } from './database'
 
 const app = fastify()
 
-app.get('/hello', async () => {
+app.get('/hello01', async () => {
   const transaction = await knex('transactions').insert({
     id: crypto.randomUUID(),
     title: 'Test transaction',
@@ -14,7 +14,7 @@ app.get('/hello', async () => {
   return transaction
 })
 
-app.get('/hello01', async () => {
+app.get('/hello02', async () => {
   const transaction = await knex('transactions')
     .where('amount', 500)
     .select('*')
