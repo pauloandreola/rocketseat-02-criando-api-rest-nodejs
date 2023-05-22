@@ -74,6 +74,15 @@ Criando um hello world
 
 ## Capítulo 02 aula 03 - Criando primeira migration
 
+- Migrations serve para gerar um histórico do versão de tabelas e mudanças do banco de dados
+- Uma migrations tem uma tabela que o banco de dado anota quais itens de desse histórico já teve executou/passou por.
+- Para ajustar o erro no terminal, inserir no  arquivo database, após o método de configuração "useNullAsDefault: true,"
+- Criar um arquivo knexfile.ts e dentro do arquivo é importar as configurações do banco
+- Passar as configurações do arquivo database por parâmetro utilizando o config
+- npm run knex -- migrate:make create-documents
+- no script "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js" incluir o comando no warning para não aparecer erro 
+
+
 ## Capítulo 02 aula 04 - Criando tabela de transações
 
 ## Capítulo 02 aula 05 - Realizando queries com Knex
