@@ -101,6 +101,10 @@ Criando um hello world
 
 ## Capítulo 02 aula 05 - Realizando queries com Knex
 
+- Populando um teste na rota para teste 
+- Fazer uma busca na rota para teste
+
+
 ## Capítulo 02 aula 06 - Variáveis de ambiente
 ## Capítulo 02 aula 07 - Tratando env com Zod
 
