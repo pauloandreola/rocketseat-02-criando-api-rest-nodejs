@@ -140,6 +140,8 @@ Criando um hello world
 - Criando a pasta @types, normalmente chamamos assim pois fica posicionada no topo das pastas
 ## Capítulo 03 aula 05 - Listagem das transações
 
+- Na listagem da lista, preferencialmente trabalhar com objeto no retorno, para adicionar e remover informações
+
 ## Capítulo 03 aula 06 - Resumo das transações
 
 
