@@ -147,6 +147,11 @@ Criando um hello world
 
 ## Capítulo 03 aula 07 - Utilizando cookies no Fastify
 
+- Cookies são formas de manter contextos entre as requisições.
+- Manter rastreabilidade utilizando o session_id
+- Instalar o pacote @fastify/cookie
+- No server antes das rotas cadastrar o modo de cookie
+- No tempo de duração do cookie preferencialmente utilizar o maxAge (calculado em milissegundos) e declarar o tempo em comentário
 
 ## Capítulo 03 aula 08 - Validando existência do cookie
 
