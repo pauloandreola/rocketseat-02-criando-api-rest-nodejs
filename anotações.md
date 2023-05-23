@@ -132,6 +132,8 @@ Criando um hello world
 
 ## Capítulo 03 aula 03 - Criação de transações
 
+- 
+
 ## Capítulo 03 aula 04 - Tipagem do Knex
 
 ## Capítulo 03 aula 05 - Listagem das transações
