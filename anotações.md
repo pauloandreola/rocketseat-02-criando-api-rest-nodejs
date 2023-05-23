@@ -136,6 +136,8 @@ Criando um hello world
 
 ## Capítulo 03 aula 04 - Tipagem do Knex
 
+- Arquivos *.d.ts = definição de tipos
+- Criando a pasta @types, normalmente chamamos assim pois fica posicionada no topo das pastas
 ## Capítulo 03 aula 05 - Listagem das transações
 
 ## Capítulo 03 aula 06 - Resumo das transações
