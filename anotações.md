@@ -128,7 +128,7 @@ Criando um hello world
 - Plugins é a forma de separar o pedaços da aplicação, exemplo separar as rotas em pasta e arquivos diferentes
 - exportar funções e receber por parâmetros, por exemplo a função receber o "app"
 - Todo o plugin no Fastify deve ser assíncrono
-- No parâmetro app deve ser instânciado pelo fastify usando o comando FastiifyInstance
+- No parâmetro app deve ser instanciado pelo fastify usando o comando FastifyInstance
 
 ## Capítulo 03 aula 03 - Criação de transações
 
@@ -162,3 +162,5 @@ Criando um hello world
 
 ## Capítulo 03 aula 09 - Configurando um hook global
 
+- Criando um prehandler como hook no início do método de rotas do transactions
+- Testando o método global de prehandler no server para gerar log do método CRUD e a URL que está sendo utilizada

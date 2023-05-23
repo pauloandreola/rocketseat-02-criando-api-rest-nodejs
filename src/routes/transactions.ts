@@ -3,8 +3,11 @@ import { z } from 'zod'
 import { knex } from '../database'
 import { randomUUID } from 'crypto'
 import { checkingSessionIdExists } from '../middlewares/check-session-id-exists'
+import { logRequestMethodAndUrl } from '../middlewares/log-method'
 
 export async function transactionsRoutes(app: FastifyInstance) {
+  app.addHook('preHandler', logRequestMethodAndUrl)
+
   app.get(
     '/',
     {
