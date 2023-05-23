@@ -155,6 +155,10 @@ Criando um hello world
 
 ## Capítulo 03 aula 08 - Validando existência do cookie
 
+- Criando middleware para verificação de usuário com cookie
+- Utilizando o preHandler nas rotas para trazer o middleware
+- Testando crédito e débito e o resultado
+- Testando todas as rotas
 
 ## Capítulo 03 aula 09 - Configurando um hook global
 
