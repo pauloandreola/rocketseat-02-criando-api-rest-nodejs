@@ -180,3 +180,5 @@ Criando um hello world
 - Testes sempre rodar em desenvolvimento e nunca em produção
 - Separar o app no arquivo app.ts e o resto no server.ts
 - Instalar -  npm i -D @types/superrtest
+
+## Capítulo 04 aula 04 - Categorizando os testes
