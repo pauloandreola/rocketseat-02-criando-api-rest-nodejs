@@ -1,10 +1,6 @@
-import { knex as setupKnex, Knex } from 'knex'
+import { Knex, knex as setupKnex } from 'knex'
 
 import { env } from './env'
-
-if (!env.DATABASE_URL) {
-  throw new Error('DATABASE_URL not found!')
-}
 
 export const config: Knex.Config = {
   client: env.DATABASE_CLIENT,
