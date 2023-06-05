@@ -164,3 +164,10 @@ Criando um hello world
 
 - Criando um prehandler como hook no início do método de rotas do transactions
 - Testando o método global de prehandler no server para gerar log do método CRUD e a URL que está sendo utilizada
+
+## Capítulo 04 aula 01 - Entendendo testes automatizados
+
+## Capítulo 04 aula 02 - Criando primeiro teste
+
+- Instalar Vitest - npm i vitest -D
+- Criar arquivo de testes 
