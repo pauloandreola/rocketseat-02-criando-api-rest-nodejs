@@ -204,6 +204,14 @@ Criando um hello world
 - Se quiser alterar o destino e nome da pasta para montar o projeto em JS....
 - Alterar o script para "build": "tsup src --out-dir build"
 
-
-
 ## Capítulo 05 aula 02 - Deploy do app do Render
+
+- 3 opções de deploy gratuito para teste
+- Render - https://render.com/ - indicação dp Diego da Rocketseat
+- Fly - https://fly.io/ - um pouco mais complexo
+- Railway - https://railway.app/ - Outra opção com boa variedade
+- Utilizando o Render e configurando o projeto com PostgreSQL
+- Banco com o mesmo nome do projeto
+- Em 90 dias contando da data de criação do banco ele expira.
+- Instalar o PostgreSQL - npm i pg
+- Mover a array de desenvolvimento para cima da dependência de desenvolvimento dentro do package.json
