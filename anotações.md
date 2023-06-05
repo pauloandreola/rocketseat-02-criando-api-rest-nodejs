@@ -186,3 +186,6 @@ Criando um hello world
 
 ## Capítulo 04 aula 05 - Testando listagem de transações
 
+
+## Capítulo 04 aula 06 - Configurando banco de testes
+
