@@ -189,3 +189,11 @@ Criando um hello world
 
 ## Capítulo 04 aula 06 - Configurando banco de testes
 
+
+## Capítulo 04 aula 07 - Finalizando testes da aplicação
+
+
+## Capítulo 05 aula 01 - Preparando para Deploy
+
+
+## Capítulo 05 aula 02 - Deploy do app do Render
