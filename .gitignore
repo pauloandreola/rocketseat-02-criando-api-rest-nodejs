@@ -1,4 +1,8 @@
-db/app.db
+# Database
+db/*.db
+
+# Build
+build
 
 # Logs
 logs

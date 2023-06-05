@@ -195,5 +195,15 @@ Criando um hello world
 
 ## Capítulo 05 aula 01 - Preparando para Deploy
 
+- É possível fazer o build do projeto pelo tsconfig habilitando o ./build no outDir e o rootdir no ./src.
+- Após isso rodar npx tsc, porém é lento
+- Instalar o npm i tsup -D
+- https://tsup.egoist.dev/
+- Criar o script "build": "tsup src"
+- Rodar npm run build
+- Se quiser alterar o destino e nome da pasta para montar o projeto em JS....
+- Alterar o script para "build": "tsup src --out-dir build"
+
+
 
 ## Capítulo 05 aula 02 - Deploy do app do Render
