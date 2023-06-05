@@ -170,4 +170,13 @@ Criando um hello world
 ## Capítulo 04 aula 02 - Criando primeiro teste
 
 - Instalar Vitest - npm i vitest -D
-- Criar arquivo de testes 
+- Criar arquivo de testes
+- criar script "test": "vistest"
+- rodar com npm test
+
+## Capítulo 04 aula 03 - Testando criação de transação
+
+- Instalar Supertest - npm i supertest -D
+- Testes sempre rodar em desenvolvimento e nunca em produção
+- Separar o app no arquivo app.ts e o resto no server.ts
+- Instalar -  npm i -D @types/superrtest
