@@ -8,6 +8,10 @@ import { logRequestMethodAndUrl } from '../middlewares/log-method'
 export async function transactionsRoutes(app: FastifyInstance) {
   app.addHook('preHandler', logRequestMethodAndUrl)
 
+  app.get('/hello', () => {
+    return 'Hello World'
+  })
+
   app.get(
     '/',
     {
